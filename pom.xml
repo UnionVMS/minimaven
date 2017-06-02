@@ -18,5 +18,8 @@
         <url>https://github.com/unionvns/minimaven</url>
         <connection>scm:git:git://github.com/unionvms/minimaven.git</connection>
     </scm>
-
+    <properties>
+        <focus-pom.maven.gitflow.helper.plugin.version>1.7.2</focus-pom.maven.gitflow.helper.plugin.version>
+        <uvms-pom.maven.gitflow.helper.plugin.version>1.7.2</uvms-pom.maven.gitflow.helper.plugin.version>
+    </properties>
 </project>
