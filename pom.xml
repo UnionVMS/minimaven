@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    
     <parent>
-        <groupId>fish.focus.uvms.maven</groupId>
-        <artifactId>uvms-pom</artifactId>
-        <version>2.1.6</version>
+        <groupId>fish.focus.maven</groupId>
+        <artifactId>focus-pom</artifactId>
+        <version>1.6</version>
         <relativePath />
     </parent>
+    
 
     <groupId>se.petermcj.maven</groupId>
     <artifactId>minimaven</artifactId>
@@ -18,8 +18,4 @@
         <url>https://github.com/unionvns/minimaven</url>
         <connection>scm:git:git://github.com/unionvms/minimaven.git</connection>
     </scm>
-    <properties>
-        <focus-pom.maven.gitflow.helper.plugin.version>1.7.2</focus-pom.maven.gitflow.helper.plugin.version>
-        <uvms-pom.maven.gitflow.helper.plugin.version>1.7.2</uvms-pom.maven.gitflow.helper.plugin.version>
-    </properties>
 </project>
