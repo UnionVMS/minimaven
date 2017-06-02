@@ -19,21 +19,4 @@
         <connection>scm:git:git://github.com/unionvms/minimaven.git</connection>
     </scm>
 
-    <build>
-        <plugins>
-      
-            <!-- Gitflow Handling: https://gist.github.com/lemiorhan/97b4f827c08aed58a9d8-->
-            <!--plugin>
-                <groupId>external.atlassian.jgitflow</groupId>
-                <artifactId>jgitflow-maven-plugin</artifactId>
-                <configuration>
-                    <flowInitContext>
-                        <developBranchName>dev</developBranchName>
-                    </flowInitContext>
-                    <squash>true</squash>
-                    <scmCommentPrefix>[RELEASE] </scmCommentPrefix>
-                </configuration>
-            </plugin-->
-        </plugins>
-    </build>
 </project>
