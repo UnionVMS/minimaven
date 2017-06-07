@@ -18,4 +18,14 @@
         <url>https://github.com/unionvns/minimaven</url>
         <connection>scm:git:git://github.com/unionvms/minimaven.git</connection>
     </scm>
+    
+    <dependencies>
+        <dependency>
+            <groupId>fish.focus.uvms.maven</groupId>
+            <artifactId>uvms-pom-test-deps</artifactId>
+            <version>2.1.6</version>
+            <type>pom</type>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
