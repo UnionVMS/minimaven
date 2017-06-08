@@ -23,4 +23,16 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <profiles>
+        <profile>
+            <!--empty profile for ci pipeline-->
+            <id>docker</id>
+        </profile>
+
+        <profile>
+            <!--empty profile for ci pipeline-->
+            <id>jacoco</id>
+            
+        </profile>
+    </profiles>
 </project>
