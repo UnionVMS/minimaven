@@ -1,5 +1,5 @@
 
-package se.petermcj.maven.minimaven;
+package fish.focus.test.maven.minimaven;
 
 public class HelloWorld {
 

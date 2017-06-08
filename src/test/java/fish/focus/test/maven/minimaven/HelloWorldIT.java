@@ -1,5 +1,6 @@
-package se.petermcj.maven.minimaven;
+package fish.focus.test.maven.minimaven;
 
+import fish.focus.test.maven.minimaven.HelloWorld;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
