@@ -19,7 +19,10 @@
         <url>https://github.com/unionvns/minimaven</url>
         <connection>scm:git:git://github.com/unionvms/minimaven.git</connection>
     </scm>
-    
+    <properties>
+        <focus-pom.maven.jgitflow.plugin.version>1.0-m5.1</focus-pom.maven.jgitflow.plugin.version>
+        <focus-pom.maven.gitflow.helper.plugin.version>1.7.1</focus-pom.maven.gitflow.helper.plugin.version>    
+    </properties>
     <dependencies>
         <dependency>
             <groupId>fish.focus.uvms.maven</groupId>
