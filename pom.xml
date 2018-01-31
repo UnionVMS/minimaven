@@ -4,8 +4,8 @@
     <parent>
         <groupId>fish.focus.maven</groupId>
         <artifactId>focus-pom</artifactId>
-        <version>1.6</version>
-        <relativePath />
+        <version>1.16</version>
+        <relativePath/>
     </parent>
  
     
@@ -19,10 +19,6 @@
         <url>https://github.com/unionvns/minimaven</url>
         <connection>scm:git:git://github.com/unionvms/minimaven.git</connection>
     </scm>
-    <properties>
-        <focus-pom.maven.jgitflow.plugin.version>1.0-m5.1</focus-pom.maven.jgitflow.plugin.version>
-        <focus-pom.maven.gitflow.helper.plugin.version>1.7.2</focus-pom.maven.gitflow.helper.plugin.version>    
-    </properties>
     <dependencies>
         <dependency>
             <groupId>fish.focus.uvms.maven</groupId>
@@ -37,6 +33,5 @@
             <!--empty profile for ci pipeline-->
             <id>docker</id>
         </profile>
-
     </profiles>
 </project>
